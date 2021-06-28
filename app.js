@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 // .then(() => {console.log('MongoDB successfully connected!')}, err => {console.log('Something went wrong!')});
 
 app.get('/', function (req, res) {
-    res.status(200).send({'message': "Welcome to Biz Solutions API"});
+    res.status(200).send({'message': "Welcome to Biz Solutions API2222222"});
 })
  
 app.listen(process.env.PORT || 8080, ()=>{console.log("Server started!")});
